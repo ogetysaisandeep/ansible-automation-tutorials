@@ -1,0 +1,10 @@
+- name: Configure Security Groups
+  hosts: localhost
+  tasks:
+    - name: Task 1 - Example task for Configure Security Groups
+      debug:
+        msg: "Task 1 executed successfully for Configure Security Groups"
+
+    - name: Task 2 - Example task for Configure Security Groups
+      debug:
+        msg: "Task 2 executed successfully for Configure Security Groups"

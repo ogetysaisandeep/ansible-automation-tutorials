@@ -1,0 +1,10 @@
+- name: Tutorial 16
+  hosts: localhost
+  tasks:
+    - name: Task 1 - Example task for Tutorial 16
+      debug:
+        msg: "Task 1 executed successfully for Tutorial 16"
+
+    - name: Task 2 - Example task for Tutorial 16
+      debug:
+        msg: "Task 2 executed successfully for Tutorial 16"

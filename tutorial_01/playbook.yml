@@ -1,0 +1,10 @@
+- name: Deploy an EC2 Instance on AWS
+  hosts: localhost
+  tasks:
+    - name: Task 1 - Example task for Deploy an EC2 Instance on AWS
+      debug:
+        msg: "Task 1 executed successfully for Deploy an EC2 Instance on AWS"
+
+    - name: Task 2 - Example task for Deploy an EC2 Instance on AWS
+      debug:
+        msg: "Task 2 executed successfully for Deploy an EC2 Instance on AWS"

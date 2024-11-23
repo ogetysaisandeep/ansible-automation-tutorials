@@ -1,0 +1,10 @@
+- name: Create an S3 Bucket
+  hosts: localhost
+  tasks:
+    - name: Task 1 - Example task for Create an S3 Bucket
+      debug:
+        msg: "Task 1 executed successfully for Create an S3 Bucket"
+
+    - name: Task 2 - Example task for Create an S3 Bucket
+      debug:
+        msg: "Task 2 executed successfully for Create an S3 Bucket"
